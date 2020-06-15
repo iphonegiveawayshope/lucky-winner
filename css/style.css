@@ -1,0 +1,38 @@
+*,::before,::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: #e9e9e9;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 40rem;
+    height: 14rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #f4f4f4;
+    padding: 3rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 15px #cbcbcb  ;
+}
+
+.main h2{
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+.main p{
+    font-size: 1.8rem;
+}
