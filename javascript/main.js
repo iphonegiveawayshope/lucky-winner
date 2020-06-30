@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     // ! Timer Clock Script
-    $("#clock").countdown("2020/7/7", function (event) {
+    $("#clock").countdown("2020/7/8", function (event) {
         let $this = $(this).html(event.strftime(""
             // +"<div><span>%W</span><span>Weeks</span></div>"
             + '<div class="day_div"><span>%D</span><span>Days</span></div>'
@@ -26,3 +26,7 @@ $(document).ready(function () {
 
 });   //Ready Function
 
+// ! Redirect Function
+function Redirect() { 
+    window.location = "https://cpbldi.com/28d9489";
+} 
