@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
     // ! Timer Clock Script
-    $("#clock").countdown("2020/7/8", function (event) {
+    $("#clock").countdown("2020/10/11", function (event) {
         let $this = $(this).html(event.strftime(""
             // +"<div><span>%W</span><span>Weeks</span></div>"
-            + '<div class="day_div"><span>%D</span><span>Days</span></div>'
-            + '<div class="hour_div"><span>%H</span><span>Hours</span></div>'
-            + '<div class="minute_div"><span>%M</span><span>Minutes</span></div>'
-            + '<div class="secund_div"><span>%S</span><span>Second</span></div>'
+            + '<div class="day_div"><span class="ctt">%D</span><span class="txt">Days</span></div>'
+            + '<div class="hour_div"><span class="ctt">%H</span><span class="txt">Hours</span></div>'
+            + '<div class="minute_div"><span class="ctt">%M</span><span class="txt">Minutes</span></div>'
+            + '<div class="secund_div"><span class="ctt">%S</span><span class="txt">Second</span></div>'
         ));
     });
 
